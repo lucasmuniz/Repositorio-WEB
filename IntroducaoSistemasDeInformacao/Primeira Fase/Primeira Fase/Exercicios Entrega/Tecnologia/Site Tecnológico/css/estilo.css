@@ -1,4 +1,32 @@
-#Cabecalho{
+
+
+#Logo
+{
+    width:750px;
+    
+}
+#divLogo{
+    background-color:white;
+    border:ridge;
+    border-color:gray;
+    border-width:7px;
+    
+    
+}
+body{
+   background-color:#d9d6d6;
+}
+#menu{
+    float:left;
+    width:100%;
+   
+}
+#menu li{
+    
+    margin-right:2em;
+    display:inline-block;
+}
+#Links{
+    margin:0 auto;
     text-align:center;
-    background-color:#a7a1a1
 }
