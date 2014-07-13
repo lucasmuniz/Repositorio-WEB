@@ -9,6 +9,7 @@
 
 body {
     background-color: #f2eded;
+    font-size: 80%;
 }
 
 #menu {
@@ -20,6 +21,10 @@ body {
         margin-right: 2em;
         display: inline-block;
     }
+
+img, picture, video, embed {
+    max-width: 100%;
+}
 
 #Links {
     margin: 0 auto;
@@ -62,13 +67,14 @@ header {
     background-color: white;
     float: left;
     width: 650px;
-    height: 700px;
+    max-height: 100%;
     font-family: Tahoma;
     font-size: 14px;
     text-align: center;
 }
 
 #CentroSobre {
+    margin-top: 10px;
     margin-left: 25%;
     border: solid;
     border-color: #808080;
@@ -76,13 +82,14 @@ header {
     background-color: white;
     float: left;
     width: 650px;
-    height: 720px;
+    max-height: 100%;
     font-family: Tahoma;
     font-size: 14px;
     text-align: center;
 }
 
 #CentroContato {
+    margin-top: 10px;
     margin-left: 25%;
     border: solid;
     border-color: #808080;
@@ -90,18 +97,18 @@ header {
     background-color: white;
     float: left;
     width: 650px;
-    height: 700px;
+    max-height: 100%;
     font-family: Tahoma;
     font-size: 14px;
     text-align: center;
 }
 
 #Total {
-    margin-top: 60px;
+    margin-top: 50px;
     width: 100%;
 }
 
-h1,h4 {
+h1, h4 {
     text-align: center;
     font-family: 'Comic Sans MS';
     color: #0094ff;
@@ -123,11 +130,11 @@ h1,h4 {
 
 #Planos {
     width: 100%;
-    margin-top: 60px;
+    margin-top: 10px;
 }
 
 #a11, #a22 {
-    margin-left: 100px;
+    margin-left: 90px;
     width: 40%;
     border: solid;
     background-color: white;
@@ -136,13 +143,14 @@ h1,h4 {
     text-align: center;
     float: left;
     border-width: 1px;
-    height: 400px;
+    height: 430px;
     margin-bottom: 20px;
     margin-top: 20px;
+    border-color: #808080;
 }
 
 #a12, #a21 {
-    margin-left: 100px;
+    margin-left: 90px;
     width: 40%;
     border: solid;
     background-color: white;
@@ -151,14 +159,15 @@ h1,h4 {
     text-align: center;
     float: left;
     border-width: 1px;
-    height: 400px;
+    height: 430px;
     margin-bottom: 20px;
     margin-top: 20px;
+    border-color: #808080;
 }
 
 #Cases {
     width: 100%;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .Case {
@@ -171,15 +180,15 @@ h1,h4 {
     text-align: center;
     float: left;
     border-width: 1px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    height: 800px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    max-height: 100%;
+    border-color: #808080;
 }
 
 #TopoCase {
     margin-left: 25%;
     width: 700px;
-    height: 50px;
     border: solid;
     background-color: white;
     font-family: Tahoma;
@@ -187,11 +196,15 @@ h1,h4 {
     text-align: center;
     float: left;
     border-width: 1px;
+    max-height: 100%;
+    border-color: #808080;
 }
-#Desenvolvimento{
+
+#Desenvolvimento {
+    margin-top: 10px;
     margin-left: 13%;
     width: 1000px;
-    height: 700px;
+    max-height: 100%;
     border: solid;
     background-color: white;
     font-family: Tahoma;
@@ -199,5 +212,40 @@ h1,h4 {
     text-align: center;
     float: left;
     border-width: 1px;
-   
+    border-color: #808080;
+}
+
+#Aqui {
+    color: blue;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    #Esquerda, #Centro, #CentroSobre, #a11, #a12, #a21, #a22, #Cases, #TopoCase, .Case, #CentroContato, #Desenvolvimento {
+        width: 43%; /*264px -1128*/
+        float: left;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #Cases {
+        margin-top: 0px;
+    }
+
+    @media screen and (max-width: 640px) {
+        #Esquerda, #Centro, #CentroSobre, #a11, #a12, #a21, #a22, #Cases, #TopoCase, .Case, #CentroContato, #Desenvolvimento {
+            width: 100%; /*264px -1128*/
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 0px;
+        }
+    }
+
+    @media screen and (max-width: 1128px) {
+        #Esquerda, #Centro, #CentroSobre, #a11, #a12, #a21, #a22, #Cases, #TopoCase, .Case, #CentroContato, #Desenvolvimento {
+            width: 100%; /*264px -1128*/
+            margin-left: 0;
+            margin-top: 0px;
+        }
+    }
 }
