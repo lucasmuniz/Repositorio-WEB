@@ -20,6 +20,7 @@ body {
     #menu li {
         margin-right: 2em;
         display: inline-block;
+        
     }
 
 img, picture, video, embed {
@@ -31,6 +32,7 @@ img, picture, video, embed {
     text-align: center;
     background-color: gray;
     font-family: Tahoma;
+    font-size:15px;
 }
 
 a {
@@ -227,25 +229,51 @@ h1, h4 {
         margin-left: 0;
         margin-right: 0;
     }
+    #Links{
+        font-size:18px;
+    }
+}
 
-    #Cases {
+@media screen and (max-width: 640px) {
+    #Esquerda, #Centro, #CentroSobre, #a11, #a12, #a21, #a22, #Cases, #TopoCase, .Case, #CentroContato, #Desenvolvimento {
+        width: 100%; /*264px -1128*/
+        margin-left: 0;
+        margin-right: 0;
         margin-top: 0px;
     }
-
-    @media screen and (max-width: 640px) {
-        #Esquerda, #Centro, #CentroSobre, #a11, #a12, #a21, #a22, #Cases, #TopoCase, .Case, #CentroContato, #Desenvolvimento {
-            width: 100%; /*264px -1128*/
-            margin-left: 0;
-            margin-right: 0;
-            margin-top: 0px;
-        }
+     #Links{
+        font-size:18px;
     }
+}
 
-    @media screen and (max-width: 1128px) {
-        #Esquerda, #Centro, #CentroSobre, #a11, #a12, #a21, #a22, #Cases, #TopoCase, .Case, #CentroContato, #Desenvolvimento {
-            width: 100%; /*264px -1128*/
-            margin-left: 0;
-            margin-top: 0px;
-        }
+@media screen and (max-width: 1128px) {
+    #Esquerda, #Centro, #CentroSobre, #a11, #a12, #a21, #a22, #Cases, #TopoCase, .Case, #CentroContato, #Desenvolvimento {
+        width: 100%; /*264px -1128*/
+        margin-left: 0;
+        margin-top: 0px;
+    }
+     #Links{
+        font-size:18px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    #Esquerda, #Centro, #CentroSobre, #a11, #a12, #a21, #a22, #Cases, #TopoCase, .Case, #CentroContato, #Desenvolvimento {
+        width: 100%; /*264px -1128*/
+        margin-left: 0;
+        margin-top: 0px;
+    }
+     #Links{
+        font-size:19px;
+    }
+}
+@media screen and (max-width: 320px) {
+    #Esquerda, #Centro, #CentroSobre, #a11, #a12, #a21, #a22, #Cases, #TopoCase, .Case, #CentroContato, #Desenvolvimento {
+        width: 100%; /*264px -1128*/
+        margin-left: 0;
+        margin-top: 0px;
+    }
+     #Links{
+        font-size:18px;
     }
 }
