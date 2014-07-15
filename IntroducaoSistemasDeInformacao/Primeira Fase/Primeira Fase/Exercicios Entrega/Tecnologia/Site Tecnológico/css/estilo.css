@@ -277,3 +277,13 @@ h1, h4 {
         font-size:18px;
     }
 }
+@media screen and (max-width:176px) { #Esquerda, #Centro, #CentroSobre, #a11, #a12, #a21, #a22, #Cases, #TopoCase, .Case, #CentroContato, #Desenvolvimento {
+        width: 100%; /*264px -1128*/
+        margin-left: 0;
+        margin-top: 0px;
+    }
+     #Links{
+        font-size:18px;
+    }
+}
+
