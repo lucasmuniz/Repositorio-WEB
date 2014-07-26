@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Primeira Fase", "Primeira Fase\Primeira Fase.csproj", "{C0820D1D-0653-43FB-8706-6B3521C77B71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Curso HTML5 Online", "Curso HTML5 Online\Curso HTML5 Online.csproj", "{521D9968-A257-4F32-A727-AD62FEE326FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C0820D1D-0653-43FB-8706-6B3521C77B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0820D1D-0653-43FB-8706-6B3521C77B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0820D1D-0653-43FB-8706-6B3521C77B71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{521D9968-A257-4F32-A727-AD62FEE326FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521D9968-A257-4F32-A727-AD62FEE326FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521D9968-A257-4F32-A727-AD62FEE326FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521D9968-A257-4F32-A727-AD62FEE326FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
