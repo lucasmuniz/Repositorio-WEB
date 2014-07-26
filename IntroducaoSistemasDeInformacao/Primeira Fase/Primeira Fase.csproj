@@ -38,13 +38,9 @@
     <None Include="bin\Debug\Faculdade.vshost.exe.manifest" />
     <None Include="bin\Debug\Primeira Fase.exe.config" />
     <None Include="bin\Debug\Primeira Fase.vshost.exe.config" />
-    <None Include="Curso de HTML5 Online\projeto-glass-html5\.DS_Store" />
-    <None Include="Curso de HTML5 Online\projeto-glass-html5\_css\.DS_Store" />
     <None Include="Curso de HTML5 Online\projeto-glass-html5\_fonts\bubblegum-sans-regular.otf" />
     <None Include="Curso de HTML5 Online\projeto-glass-html5\_fonts\computer-font.ttf" />
-    <None Include="Curso de HTML5 Online\projeto-glass-html5\_imagens\.DS_Store" />
     <None Include="Curso de HTML5 Online\projeto-glass-html5\_imagens\glass-logo-grd" />
-    <None Include="Curso de HTML5 Online\projeto-glass-html5\_javascript\.DS_Store" />
     <None Include="Curso de HTML5 Online\projeto-glass-html5\_textos\.DS_Store" />
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="Primeira Fase\Exercicios Entrega\Tecnologia\Site Tecnológico\Relatório\Relatório Final.docx" />
